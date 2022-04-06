@@ -2,7 +2,7 @@ import { useState} from "react";
 import Urlcontext from "./urlcontext";
 
 const Urlstate=(props)=>{
-    const host="http://localhost:5000";
+    const host="http://localhost:3000";
     const [okk,setokk]=useState(null);
     const [urls, seturls] = useState([]);
     const updateurl=(id)=>{
