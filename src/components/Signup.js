@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { useNavigate } from 'react-router-dom';
-// import Urlcontext from '../context/urlcontext';
+
 import './Outside.css'
 export const Signup = () => {
     const navigate=useNavigate();
